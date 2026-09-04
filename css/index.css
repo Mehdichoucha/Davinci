@@ -1,5 +1,5 @@
 :root {
-    --header-image: url('https://images.unsplash.com/photo-1573510459738-7ea3373bcc82?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
     --body-bg-image: url('https://usagif.com/wp-content/uploads/gifs/water-20.gif');
     --content: #43256E;
 }
@@ -78,11 +78,24 @@ body {
     background-size: 100%;
 }
 
+#logo-container {
+    background-color: #32708d;
+    padding: 2px;
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    width: 25%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
 /* navigation section!! */
 #navbar {
 height: 40px;
     background-color: #32708d;
-    /* navbar color */
     width: 100%;
 }
 
@@ -133,6 +146,119 @@ main {
     flex: 1;
     padding: 20px;
     order: 2;
+}
+
+.profile-intro {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.profile-copy {
+    flex: 1;
+}
+
+.eyebrow {
+    margin: 0 0 8px;
+    color: #d9f4ff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.profile-intro h1 {
+    margin: 0 0 12px;
+}
+
+.profile-lead {
+    color: #e7f8ff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.profile-details {
+    display: grid;
+    gap: 8px;
+    margin: 20px 0 0;
+}
+
+.profile-details div {
+    display: flex;
+    gap: 12px;
+}
+
+.profile-details dt {
+    width: 90px;
+    color: #d9f4ff;
+    font-weight: bold;
+}
+
+.profile-details dd {
+    margin: 0;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+.profile-section {
+    padding-top: 20px;
+}
+
+.profile-section h2 {
+    margin-top: 0;
+}
+
+.project-list {
+    margin-top: 20px;
+}
+
+.project-item {
+    margin-bottom: 18px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+.project-item p {
+    margin-bottom: 0;
+}
+
+.profile-tags,
+.profile-grid {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.profile-tags span,
+.profile-card {
+    background-color: #166a9b;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    padding: 10px;
+}
+
+.profile-tags span {
+    font-weight: bold;
+}
+
+.profile-card {
+    flex: 1 1 220px;
+}
+
+.profile-card h3 {
+    margin-top: 0;
+}
+
+.profile-card p {
+    min-height: 42px;
 }
 
 /* what's this "order" stuff about?? allow me to explain! if you're using both sidebars, the "order" value tells the CSS the order in which to display them. left sidebar is 1, content is 2, and right sidebar is 3! */
@@ -217,4 +343,5 @@ strong {
     #navbar ul {
         flex-wrap: wrap;
     }
+
 }
