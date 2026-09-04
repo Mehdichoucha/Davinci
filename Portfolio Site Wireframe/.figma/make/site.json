@@ -1,0 +1,12 @@
+{
+  "title": "Davinci Portfolio",
+  "description": "Retro functional portfolio for web projects, music releases, gallery work, notes, and contact links.",
+  "language": "en",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
