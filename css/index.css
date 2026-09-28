@@ -203,8 +203,6 @@ main {
     width: 120px;
     height: 120px;
     object-fit: contain;
-    background-color: #ffffff;
-    padding: 8px;
 }
 
 .profile-section {
