@@ -1,0 +1,28 @@
+.social-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin-top: 24px;
+}
+
+#container .social-link {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	min-width: 150px;
+	padding: 10px 14px;
+	border: 1px solid rgba(255, 255, 255, 0.55);
+	background-color: #166a9b;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#container .social-link:hover {
+	background-color: #12577f;
+}
+
+.social-link img {
+	width: 36px;
+	height: 36px;
+	object-fit: contain;
+}
